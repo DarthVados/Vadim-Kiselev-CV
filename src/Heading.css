@@ -1,0 +1,63 @@
+.headingContainer {
+    
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( 89deg,  rgba(253,220,155,1) 26.2%, rgba(255,215,165,1) 48.5% );
+    align-items: center;
+    align-content: stretch;
+    border-width: 1px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+      
+}
+
+.hLogo {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.hText {
+flex-grow: 3;
+align-items: center;
+font-family: "SerifProBold";
+font-size: large;
+text-align: left;
+margin-left: 40px;
+line-height: 15px;
+
+
+}
+h1 {
+    font-family: "Mont";
+    font-size: 3rem;
+}
+
+
+@supports (display: flex) {
+    @media screen and (max-width: 900px) {
+        .headingContainer {
+            flex-direction: column;        
+        }
+
+        .hText {
+            justify-content: center;
+            text-align: center;
+            margin-left: 0px;
+        }
+    
+        h1 {
+        font-size: 2rem;
+        }
+}
+
+}
+.logoImage {
+    height: 200px;
+    border: solid rgb(0, 40, 73);
+    border-width: 2px;
+    border-radius: 360%;
+}

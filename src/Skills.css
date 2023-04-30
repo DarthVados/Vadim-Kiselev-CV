@@ -1,0 +1,84 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    padding: 5px;
+
+}
+
+.icon {
+    width: 17px;
+    margin-left: 10px;
+
+}
+
+.skills {
+width: 16%;
+
+    
+}
+
+.mainPage {
+    margin-left: 60px;
+    width: 84%;
+}
+
+
+.portfolioBTN {
+ text-align: center;
+
+    
+}
+
+@media screen and (max-width: 900px) {
+.skillsContainer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.mainPage {
+    margin-left: 0px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.skills {
+    width: 100%;
+    justify-content: center;
+
+}
+h3 {
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, rgba(253,220,155,1) 0%, rgba(255,215,165,1)  51%, rgb(228, 110, 41)  100%);
+    margin: 10px;
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;        
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: 0px;
+    width: 300px;
+    font-family: "SerifPro";
+    
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    
+    text-decoration: none;
+  }
+ 

@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
+body {
+    background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% );
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "SerifPro";
+    color: #112D4E;
+    margin-top: 0%;
+}   
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: "SerifPro";   /*Can be any text*/
+    src: local("SerifPro"),
+      url("./fonts/SourceSerifPro-Regular.ttf") format("truetype");
   }
-}
+  
+@font-face {
+    font-family: "SerifProBold";   /*Can be any text*/
+    src: local("SerifProBold"),
+      url("./fonts/SourceSerifPro-Bold.ttf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "Mont";   /*Can be any text*/
+    src: local("Mont"),
+      url("./fonts/Montserrat-Bold.ttf") format("truetype");
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mod_content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.langs {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 5px 5px;
+  margin: 2px 2px;
+  text-align: center;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-toggle {
+  background-image: linear-gradient(to right, rgb(204, 166, 226) 0%, rgb(208, 137, 224)  51%, rgb(255, 118, 118)  100%);
+  padding: 5px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;         
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: 0px;
+  text-decoration: none;
+  color:aliceblue;
+  font-family: "SerifPro";
+  
+  
+}
+
+.btn-toggle:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+}
+
+
+.btn-toggle.active {
+  background-image: linear-gradient(to right, rgb(168, 108, 202) 0%, rgb(187, 65, 214)  51%);
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .langs {
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .reclet {
+    width: 80%;
   }
 }
