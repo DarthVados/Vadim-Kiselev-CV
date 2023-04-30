@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DarthVados/Vadim-Kiselev-CV.git/static/css/main.667d9e63.css",
-    "main.js": "/DarthVados/Vadim-Kiselev-CV.git/static/js/main.2c212d8e.js",
-    "static/media/rec.jpg": "/DarthVados/Vadim-Kiselev-CV.git/static/media/rec.c5e8cce3977626ee1ca0.jpg",
-    "static/media/Vadimpic.png": "/DarthVados/Vadim-Kiselev-CV.git/static/media/Vadimpic.52eb2077d504551de034.png",
-    "static/media/SourceSerifPro-Bold.ttf": "/DarthVados/Vadim-Kiselev-CV.git/static/media/SourceSerifPro-Bold.f908d1c364285c6ae11b.ttf",
-    "static/media/SourceSerifPro-Regular.ttf": "/DarthVados/Vadim-Kiselev-CV.git/static/media/SourceSerifPro-Regular.4302ca436c75cd3caffe.ttf",
-    "static/media/Montserrat-Bold.ttf": "/DarthVados/Vadim-Kiselev-CV.git/static/media/Montserrat-Bold.d0ca82d8ca07ba209aee.ttf",
-    "index.html": "/DarthVados/Vadim-Kiselev-CV.git/index.html",
-    "main.667d9e63.css.map": "/DarthVados/Vadim-Kiselev-CV.git/static/css/main.667d9e63.css.map",
-    "main.2c212d8e.js.map": "/DarthVados/Vadim-Kiselev-CV.git/static/js/main.2c212d8e.js.map"
+    "main.css": "/Vadim-Kiselev-CV/static/css/main.31fa4d23.css",
+    "main.js": "/Vadim-Kiselev-CV/static/js/main.2ba321c4.js",
+    "static/media/rec.jpg": "/Vadim-Kiselev-CV/static/media/rec.c5e8cce3977626ee1ca0.jpg",
+    "static/media/Vadimpic.png": "/Vadim-Kiselev-CV/static/media/Vadimpic.52eb2077d504551de034.png",
+    "static/media/SourceSerifPro-Bold.ttf": "/Vadim-Kiselev-CV/static/media/SourceSerifPro-Bold.f908d1c364285c6ae11b.ttf",
+    "static/media/SourceSerifPro-Regular.ttf": "/Vadim-Kiselev-CV/static/media/SourceSerifPro-Regular.4302ca436c75cd3caffe.ttf",
+    "static/media/Montserrat-Bold.ttf": "/Vadim-Kiselev-CV/static/media/Montserrat-Bold.d0ca82d8ca07ba209aee.ttf",
+    "index.html": "/Vadim-Kiselev-CV/index.html",
+    "main.31fa4d23.css.map": "/Vadim-Kiselev-CV/static/css/main.31fa4d23.css.map",
+    "main.2ba321c4.js.map": "/Vadim-Kiselev-CV/static/js/main.2ba321c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.667d9e63.css",
-    "static/js/main.2c212d8e.js"
+    "static/css/main.31fa4d23.css",
+    "static/js/main.2ba321c4.js"
   ]
 }
